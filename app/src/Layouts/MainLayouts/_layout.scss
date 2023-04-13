@@ -1,0 +1,18 @@
+@import '../../components/SideBar/Sidebar';
+.Layout{
+    width: 110rem;
+    height: 90vh;
+    background: #ffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 3px 3px 18px #0000002b;
+    @include Flex();
+    &__Child{
+        background-color: white;
+        width: 100%;
+        margin-left: -16px;
+        border-radius: 16px;
+        height: 100%;
+        @include Flex();
+    }
+}

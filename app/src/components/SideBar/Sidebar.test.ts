@@ -1,4 +1,4 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import Exp from "./Exp";
+import Exp from "./SideBar";
 test("renders learn react link", () => {});

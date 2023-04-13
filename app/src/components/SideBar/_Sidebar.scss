@@ -1,0 +1,21 @@
+@import '../NavLinks/NavLinks';
+.SideBar{
+    background: linear-gradient(to bottom, #955becb0, #6c6ff0);
+    width: 22rem;
+    height: 100%;
+    @include Flex(column , flex-start , center);
+    padding-top: 3rem;
+    &__UserPhoto{
+        width: 5rem;
+        border: solid 3px #fff;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+    &__UserName{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #ffff;
+        margin-bottom: 10rem;
+        letter-spacing: 0.1rem;
+    }
+}

@@ -1,0 +1,11 @@
+@import "./assets/styles/base";
+@import "./assets/styles/mixins";
+@import "./views/home/home";
+@import './Layouts/MainLayouts/layout';
+.App {
+  background: linear-gradient(to right , white ,rgba(238, 245, 252, 0.589));
+  width: 100%;
+  height: 100vh;
+  @include Flex();
+
+}

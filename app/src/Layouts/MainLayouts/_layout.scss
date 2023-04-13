@@ -14,5 +14,6 @@
         border-radius: 16px;
         height: 100%;
         @include Flex();
+        z-index: 2;
     }
 }

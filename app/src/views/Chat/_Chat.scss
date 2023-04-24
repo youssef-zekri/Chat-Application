@@ -1,0 +1,5 @@
+@import './components/Friends/Friends';
+@import './components/ChatArea/ChatArea';
+.Chat{
+    @include Flex(row , center , center)
+}

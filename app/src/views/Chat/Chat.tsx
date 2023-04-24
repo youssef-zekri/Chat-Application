@@ -1,7 +1,12 @@
 import React from "react";
+import Friends from "./components/Friends/Friends";
+import ChatArea from "./components/ChatArea/ChatArea";
 
 export default function Chat() {
   return (
-    <h1>Chat ... 💬</h1>
+    <div className="Chat">
+      <Friends />
+      <ChatArea />
+    </div>
   );
 }

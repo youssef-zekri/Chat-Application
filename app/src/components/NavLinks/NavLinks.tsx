@@ -5,6 +5,7 @@ interface Props {
   path: string;
   message: string;
   icon: any;
+  name : string,
 }
 export default function NavLinks(Props: Props) {
   return (
@@ -13,6 +14,7 @@ export default function NavLinks(Props: Props) {
       className={({ isActive }) =>
         isActive ? "SideBar__Link SideBar__Link--active" : "SideBar__Link"
       }
+      id ={Props.name}
     >
       {Props.icon}
       {Props.message}

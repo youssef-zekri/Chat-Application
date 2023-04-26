@@ -16,7 +16,7 @@
         transition: all 0.2s ease;
     }
     &--active{
-        background-color:rgb(181, 157, 233);
+        background-color: rgb(181, 157, 233);
         &::before{
             content: "";
             width: 3.5px;
@@ -34,3 +34,6 @@
 }
 
 
+#logOut{
+    margin-top: 13rem;
+}

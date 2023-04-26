@@ -1,7 +1,8 @@
 import React from "react";
-
 export default function Auth() {
   return (
-    <h1>Auth ... 🔑</h1>
+    <div>
+      <h1>auth... </h1>
+    </div>
   );
 }

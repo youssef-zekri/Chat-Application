@@ -5,8 +5,7 @@ import ChatArea from "./components/ChatArea/ChatArea";
 export default function Chat() {
   return (
     <div className="Chat">
-      <Friends />
-      <ChatArea />
+      <h1>Chat .. 💬</h1>
     </div>
   );
 }
